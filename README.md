@@ -748,11 +748,6 @@ int 3指令产生一个特殊的单字节操作码（CC），这是用来调用�
 
 这会使子进程打印出“world”然后退出，同之前计划的一样。
 
-##小结
-ptrace是一种比较底层的技术，它为程序调试，进程注入等应用技术提供了基础支持，因为它够底层，所有要想真正完全掌握，需要掌握一些linux系统知识。
-##示例代码
-所有示例代码已上传到我的github：<br>
-<https://github.com/yangbean9/ptraceDemo>
 ##参考资料
 <a href="http://www.linuxjournal.com/article/6100">Playing with ptrace, Part I</a>
 <br>
